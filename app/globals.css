@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-normal;
+  }
+}
+
+@layer components {
+  .pageTitle {
+    @apply bg-brand bg-clip-text text-center text-4xl font-extrabold text-transparent;
+  }
+
+  .navLink {
+    @apply bg-brand bg-clip-text p-1 text-base font-extrabold uppercase text-transparent transition-opacity duration-300 hover:opacity-60 focus:opacity-60;
+  }
+}
