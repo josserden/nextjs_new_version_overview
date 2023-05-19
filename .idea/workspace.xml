@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76fe0cd5-bcee-48e4-b796-b8416662106d" name="Changes" comment="update task">
-      <change beforePath="$PROJECT_DIR$/components/MoviesGallery/MoviesGallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MoviesGallery/MoviesGallery.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="76fe0cd5-bcee-48e4-b796-b8416662106d" name="Changes" comment="fix some bugs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684420384629</updated>
       <workItem from="1684420386521" duration="1371000" />
-      <workItem from="1684493175686" duration="7562000" />
+      <workItem from="1684493175686" duration="7757000" />
     </task>
     <task id="LOCAL-00001" summary="update task">
       <created>1684500620692</created>
@@ -103,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684500620692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix some bugs">
+      <created>1684500914652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684500914652</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update task" />
-    <option name="LAST_COMMIT_MESSAGE" value="update task" />
+    <MESSAGE value="fix some bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix some bugs" />
   </component>
 </project>

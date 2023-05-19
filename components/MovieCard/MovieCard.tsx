@@ -2,7 +2,6 @@
 import React, { FC } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 
 import { completeMoviePoster } from '@/utils/completeMoviePoster';
 import { MovieCardProps } from '@/components/MovieCard/MovieCard.types';
@@ -10,8 +9,6 @@ import { MovieCardProps } from '@/components/MovieCard/MovieCard.types';
 export const MovieCard: FC<MovieCardProps> = ({
   movie: { id, title, backdrop_path, genre_ids, vote_average },
 }) => {
-  const pathname = usePathname();
-
   return (
     <li className="relative overflow-hidden rounded-md border bg-white shadow-md">
       <span className="absolute right-0 top-0 bg-brand px-2 py-1 text-xs font-medium text-white">
@@ -39,7 +36,7 @@ export const MovieCard: FC<MovieCardProps> = ({
           {genre_ids.join(' ').split(',')}
         </p>
 
-        <Link className="navLink" href={`${pathname}/${id}`}>
+        <Link className="navLink" href={`/movies/${id}`}>
           View Details
         </Link>
       </div>
