@@ -6,7 +6,7 @@ import { MovieProps } from '@/components/MovieCard/MovieCard.types';
 
 export const MoviesGallery: FC<MoviesGalleryProps> = ({ movies = [] }) => {
   return (
-    <ul className="md:grid-col-2 grid gap-8 xl:grid-cols-3">
+    <ul className="grid gap-8 xl:grid-cols-3 md:grid-cols-2">
       {movies.map((movie: MovieProps) => (
         <MovieCard key={movie.id} movie={movie} />
       ))}

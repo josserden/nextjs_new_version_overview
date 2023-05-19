@@ -4,38 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76fe0cd5-bcee-48e4-b796-b8416662106d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Button/Button.types.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Button/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Form/Form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Form/Form.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Form/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Loader/Loader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Loader/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/MovieCard/MovieCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/MovieCard/MovieCard.types.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/MovieCard/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/MoviesGallery/MoviesGallery.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/MoviesGallery/MoviesGallery.types.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/MoviesGallery/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/NavLink/NavLink.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/NavLink/NavLink.types..tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/NavLink/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(server)/api/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/movies-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(server)/api/movie/route.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(server)/api/movies/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/(server)/api/movies/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/loading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movies/[movie]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/movies/[movie]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/movies/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/movies/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+    <list default="true" id="76fe0cd5-bcee-48e4-b796-b8416662106d" name="Changes" comment="update task">
+      <change beforePath="$PROJECT_DIR$/components/MoviesGallery/MoviesGallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MoviesGallery/MoviesGallery.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,8 +94,16 @@
       <option name="presentableId" value="Default" />
       <updated>1684420384629</updated>
       <workItem from="1684420386521" duration="1371000" />
-      <workItem from="1684493175686" duration="7260000" />
+      <workItem from="1684493175686" duration="7562000" />
     </task>
+    <task id="LOCAL-00001" summary="update task">
+      <created>1684500620692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684500620692</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,5 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update task" />
+    <option name="LAST_COMMIT_MESSAGE" value="update task" />
   </component>
 </project>
