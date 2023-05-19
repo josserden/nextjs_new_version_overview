@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { getTrendingMovies } from "@/app/(server)/api/data";
+import { getTrendingMovies } from "@/utils/movies-api";
 import { completeMoviePoster } from "@/utils/completeMoviePoster";
 
 export default async function Home() {

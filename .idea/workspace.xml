@@ -5,34 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76fe0cd5-bcee-48e4-b796-b8416662106d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(server)/api/data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(server)/api/movie/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(server)/api/movies/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/movies/[movie]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/movies/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prettier.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svgr.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/completeMoviePoster.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Button/Button.types.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Form/Form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Form/Form.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Form/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Loader/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Loader/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MovieCard/MovieCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MovieCard/MovieCard.types.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MovieCard/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MoviesGallery/MoviesGallery.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MoviesGallery/MoviesGallery.types.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MoviesGallery/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NavLink/NavLink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NavLink/NavLink.types..tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NavLink/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(server)/api/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/movies-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(server)/api/movie/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(server)/api/movies/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/(server)/api/movies/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/loading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/movies/[movie]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/movies/[movie]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/movies/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/movies/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,24 +67,35 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/denjosser/Desktop/my-app/app/(server)/api",
+    "last_opened_file_path": "/Users/denjosser/Desktop/nextjs_new_version_overview/components/Button",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/denjosser/.nvm/versions/node/v16.14.2/lib/node_modules/prettier",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "ts.external.directory.path": "/Users/denjosser/Desktop/my-app/node_modules/typescript/lib"
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "ts.external.directory.path": "/Users/denjosser/Desktop/nextjs_new_version_overview/node_modules/typescript/lib"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/(server)/api" />
+      <recent name="$PROJECT_DIR$/components/Button" />
+      <recent name="$PROJECT_DIR$/components/Form" />
+      <recent name="$PROJECT_DIR$/components/NavLink" />
+      <recent name="$PROJECT_DIR$/components/MoviesGallery" />
+      <recent name="$PROJECT_DIR$/components/MovieCard" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/components/MovieCard" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/utils" />
     </key>
   </component>
   <component name="RunManager">
@@ -97,6 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684420384629</updated>
       <workItem from="1684420386521" duration="1371000" />
+      <workItem from="1684493175686" duration="7260000" />
     </task>
     <servers />
   </component>

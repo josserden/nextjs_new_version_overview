@@ -18,6 +18,6 @@
   }
 
   .navLink {
-    @apply bg-brand bg-clip-text p-1 text-base font-extrabold uppercase text-transparent transition-opacity duration-300 hover:opacity-60 focus:opacity-60;
+    @apply bg-brand bg-clip-text p-1 text-base uppercase text-transparent transition-opacity duration-300 hover:opacity-60 focus:opacity-60 font-bold;
   }
 }

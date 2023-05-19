@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getTrendingMovies } from "@/app/(server)/api/data";
+import { getTrendingMovies } from "@/utils/movies-api";
 
 export async function GET() {
   const movies = await getTrendingMovies();

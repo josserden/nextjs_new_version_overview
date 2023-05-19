@@ -1,16 +1,27 @@
-import { ReactNode } from "react";
-import Link from "next/link";
+import { ReactNode } from 'react';
+import { NavLink } from '@/components/NavLink';
 
-import { Inter } from "next/font/google";
-import Logo from "public/logo.svg";
-import "./globals.css";
+import { Inter } from 'next/font/google';
+import Logo from 'public/logo.svg';
+import './globals.css';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: "The Movie Database",
-  description: "For using new version of Next.js",
+  title: 'The Movie Database',
+  description: 'For using new version of Next.js',
 };
+
+const routes = [
+  {
+    name: 'Home',
+    slug: '/',
+  },
+  {
+    name: 'Movies',
+    slug: '/movies',
+  },
+];
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -24,17 +35,22 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
             <nav className="flex items-center justify-end">
               <ul className="flex items-center gap-4">
-                <li>
-                  <Link className="navLink" href="/">
-                    home
-                  </Link>
-                </li>
+                {routes.map(route => (
+                  <NavLink key={route.slug} slug={route.slug}>
+                    {route.name}
+                  </NavLink>
+                ))}
+                {/*<li>*/}
+                {/*  <Link className="navLink" href="/">*/}
+                {/*    home*/}
+                {/*  </Link>*/}
+                {/*</li>*/}
 
-                <li>
-                  <Link className="navLink" href="/movies">
-                    movies
-                  </Link>
-                </li>
+                {/*<li>*/}
+                {/*  <Link className="navLink" href="/movies">*/}
+                {/*    movies*/}
+                {/*  </Link>*/}
+                {/*</li>*/}
               </ul>
             </nav>
           </div>
